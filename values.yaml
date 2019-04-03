@@ -1,0 +1,10 @@
+replicasCount: 1
+image:
+  repository: 
+  tag: 
+  pullPolicy: IfNotPresent
+containerPort: 8118
+service:
+  type: LoadBalancer
+  port: 8118
+  targetPort: 8118
